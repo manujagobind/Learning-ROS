@@ -118,6 +118,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/gobind/Workspace/ROS_Tutorials/build/gtest/cmake_install.cmake")
   INCLUDE("/home/gobind/Workspace/ROS_Tutorials/build/beginner_tutorials/cmake_install.cmake")
+  INCLUDE("/home/gobind/Workspace/ROS_Tutorials/build/robot_setup_tf/cmake_install.cmake")
+  INCLUDE("/home/gobind/Workspace/ROS_Tutorials/build/learning_tf2/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

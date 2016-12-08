@@ -6,3 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(beginner_tutorials)
+SUBDIRS(robot_setup_tf)
+SUBDIRS(learning_tf2)
